@@ -22,6 +22,7 @@ git -C ./srcpkgs/brave-bin pull
 sudo xbps-install --repository hostdir/binpkgs brave-bin
 ```
 
+
 ## Auto update
 
 The repository is automatically updated to the latest Brave stable release using Github Actions schedule.
@@ -37,3 +38,27 @@ Dependencies:
 2. `gh` (GitHub CLI)
 3. `sha256sum`
 4. `envsubst` (part of `gettext`)
+
+---
+
+## Project Status & Maintenance Notice
+
+This repository is maintained primarily for personal use and convenience. It is publicly available and anyone is welcome to use it; however, please be aware of the following:
+
+- I am a relatively new maintainer.
+- Updates are performed according to my own needs and availability.
+- No guarantees are provided regarding long-term maintenance, response time to issues, or compatibility across all Void Linux configurations.
+- This repository is unofficial and not affiliated with the Void Linux project.
+
+If you prefer a more established third-party repository with broader maintenance guarantees, you may consider:
+
+**Abyss Packages**  
+https://codeberg.org/mobinmob/abyss-packages
+
+Projects such as Abyss may follow stricter review processes and long-term maintenance practices. Their update cadence may differ.
+
+By using this repository, you acknowledge that:
+
+- This package repackages upstream `.deb` binaries.
+- It is not built from source.
+- You assume responsibility for verifying its suitability for your system.
