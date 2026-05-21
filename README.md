@@ -14,7 +14,7 @@ The template file is prepared for use with [xbps-src](https://wiki.voidlinux.org
 git clone https://github.com/void-linux/void-packages
 cd void-packages
 ./xbps-src binary-bootstrap
-git clone https://github.com/soanvig/brave-bin ./srcpkgs/brave-bin
+git clone https://github.com/Ruintar/brave-bin ./srcpkgs/brave-bin
 
 # To install and update Brave:
 git -C ./srcpkgs/brave-bin pull
