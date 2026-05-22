@@ -1,5 +1,5 @@
-# Template file for 'brave-bin'
-pkgname=brave-bin
+# Template file for 'brave'
+pkgname=brave
 version=${VERSION}
 revision=1
 only_for_archs="x86_64"
