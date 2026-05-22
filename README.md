@@ -65,4 +65,6 @@ By using this repository, you acknowledge that:
 
 **Noid Linux Repository**
 https://github.com/noid-linux/xbps-repo
-This is the repository where the `brave` package is also maintained. By naming this package `brave`, it allows for seamless version overlapping between this repository and Noid's.
+
+- This is the repository where the `brave` package is also maintained.
+- By naming this package `brave`, it allows for seamless version overlapping between this repository and Noid's.
