@@ -1,8 +1,8 @@
 **You can use the [Flatpak instead](https://flathub.org/apps/details/com.brave.Browser), which probably is more secure and easier way to install Brave**
 
-# brave-bin package for Void Linux
+# brave package for Void Linux
 
-This package provides Brave Browser, the browser based on Chromium with privacy in mind and a built in ad blocker. This package merely takes the .deb release version from the authors, extracts and installs the files as is. Plus, ensures the dependencies are there. **Note:** This is not building binaries from source as a proper package should. Hence the `-bin` shuffix.
+This package provides Brave Browser, the browser based on Chromium with privacy in mind and a built in ad blocker. This package merely takes the .deb release version from the authors, extracts and installs the files as is. Plus, ensures the dependencies are there. **Note:** This repackages binaries instead of building from source. It is named brave (instead of brave-bin) specifically to sync and overlap with the Noid Linux repository.
 
 The template file is prepared for use with [xbps-src](https://wiki.voidlinux.org/Xbps-src) in Void Linux.
 
@@ -14,12 +14,12 @@ The template file is prepared for use with [xbps-src](https://wiki.voidlinux.org
 git clone https://github.com/void-linux/void-packages
 cd void-packages
 ./xbps-src binary-bootstrap
-git clone https://github.com/Ruintar/brave-bin ./srcpkgs/brave-bin
+git clone https://github.com/Ruintar/brave ./srcpkgs/brave
 
 # To install and update Brave:
-git -C ./srcpkgs/brave-bin pull
-./xbps-src pkg brave-bin
-sudo xbps-install --repository hostdir/binpkgs brave-bin
+git -C ./srcpkgs/brave pull
+./xbps-src pkg brave
+sudo xbps-install --repository hostdir/binpkgs brave
 ```
 
 
@@ -62,3 +62,9 @@ By using this repository, you acknowledge that:
 - This package repackages upstream `.deb` binaries.
 - It is not built from source.
 - You assume responsibility for verifying its suitability for your system.
+
+**Noid Linux Repository**
+https://github.com/noid-linux/xbps-repo
+
+- This is the repository where the `brave` package is also maintained.
+- By naming this package `brave`, it allows for seamless version overlapping between this repository and Noid's.
