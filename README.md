@@ -39,7 +39,6 @@ Dependencies:
 3. `sha256sum`
 4. `envsubst` (part of `gettext`)
 
----
 
 ## Project Status & Maintenance Notice
 
