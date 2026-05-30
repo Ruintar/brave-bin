@@ -51,8 +51,7 @@ This repository is maintained primarily for personal use and convenience. It is 
 
 If you prefer a more established third-party repository with broader maintenance guarantees, you may consider:
 
-**Abyss Packages**  
-https://codeberg.org/mobinmob/abyss-packages
+**[Abyss Packages](https://codeberg.org/mobinmob/abyss-packages)**  
 
 Projects such as Abyss may follow stricter review processes and long-term maintenance practices. Their update cadence may differ.
 
@@ -62,8 +61,7 @@ By using this repository, you acknowledge that:
 - It is not built from source.
 - You assume responsibility for verifying its suitability for your system.
 
-**Noid Linux Repository**
-https://github.com/noid-linux/xbps-repo
+**[Noid Linux Repository](https://github.com/noid-linux/xbps-repo)**
 
 - This is the repository where the `brave` package is also maintained.
 - By naming this package `brave`, it allows for seamless version overlapping between this repository and Noid's.
